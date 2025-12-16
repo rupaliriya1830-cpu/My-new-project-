@@ -1,8 +1,6 @@
-# Smart Study Planner – AI-Powered Personalized Study Scheduler
+##summary
 
-## 1. Idea in a Nutshell
-
-**Project Name:** Smart Study Planner  
+Project Name:** Smart Study Planner  
 
 **Description:** Smart Study Planner is an AI-powered tool that helps students create personalized study schedules. By analyzing a student’s subjects, available study hours, learning habits, and exam dates, the AI generates optimized study plans with suggested time slots, breaks, and subject prioritization for maximum learning efficiency.
 
