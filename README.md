@@ -1,71 +1,146 @@
-# Smart Study Planner – AI-Powered Personalized Study Scheduler
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chandan Decorators</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-## Summary
-Smart Study Planner is an AI-powered tool designed to help students create personalized study schedules. By analyzing subjects, available study hours, learning habits, and exam dates, the AI generates optimized daily and weekly plans with suggested time slots, breaks, and subject prioritization. This tool aims to reduce study stress, improve learning efficiency, and help students develop better time management and study habits.
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
 
----
+    header {
+      background: linear-gradient(to right, #d62828, #f77f00);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
 
-## 1. Idea in a Nutshell
-**Project Name:** Smart Study Planner  
-**Description:** An AI tool that provides students with personalized study plans, recommending which subjects to study, when to take breaks, and how to prioritize topics for exams and assignments.
+    nav {
+      background: #222;
+      padding: 12px;
+      text-align: center;
+    }
 
----
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-## 2. Background
-**Problem:** Many students struggle with time management and exam preparation, often leading to stress and inefficient study habits.  
+    section {
+      padding: 30px;
+      text-align: center;
+    }
 
-**Frequency:** This problem is widespread, affecting students from primary school through university.  
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
 
-**Personal Motivation:** Observing peers waste hours studying without a structured plan inspired the idea to create a smarter, AI-driven study planner.  
+    .card {
+      background: white;
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
 
-**Importance:** A structured approach to studying can improve performance, reduce stress, and foster productive habits.
+    .gallery img {
+      width: 250px;
+      margin: 10px;
+      border-radius: 10px;
+    }
 
----
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: green;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
 
-## 3. Data and AI Techniques
-**Data Sources:**  
-- User inputs: subjects, syllabus, exam dates, daily available hours.  
-- Public educational resources: average time required for topics.  
+    footer {
+      background: #111;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
 
-**AI Techniques:**  
-- **Machine Learning:** Predict optimal study time allocation.  
-- **Natural Language Processing (NLP):** Understand topics and categorize subjects.  
-- **Scheduling Algorithms:** Generate personalized daily and weekly study plans.  
+<body>
 
-**Prototype Idea:** A Python + Flask web app where students input their data, and the AI outputs a personalized study schedule.
+<header>
+  <h1>Chandan Decorators 🎉</h1>
+  <p>By Chandan Kumar | Wedding & Event Specialist</p>
+</header>
 
----
+<nav>
+  <a href="#">Home</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-## 4. How It Is Used
-**Context:** Students enter their academic data, and the AI produces a tailored study plan.  
+<section>
+  <h2>Welcome</h2>
+  <p>We make your events beautiful and memorable ✨</p>
+  <a class="btn" href="https://wa.me/918210264657">📲 Book on WhatsApp</a>
+</section>
 
-**Users:**  
-- Students who want a structured plan for learning.  
-- Teachers and parents who wish to monitor study progress.  
+<section id="services">
+  <h2>Our Services</h2>
 
-**Impact:**  
-- Reduces stress by organizing study time efficiently.  
-- Improves academic performance through structured planning.  
-- Encourages consistent study habits.
+  <div class="services">
 
----
+    <div class="card">
+      <h3>Wedding Decoration 💍</h3>
+      <p>Stage, mandap, and full venue decoration</p>
+    </div>
 
-## 5. Challenges
-- AI cannot guarantee perfect learning outcomes; student motivation is essential.  
-- Accuracy relies on complete and correct input data.  
-- Scheduling cannot account for sudden personal changes or events.
+    <div class="card">
+      <h3>Birthday Decoration 🎂</h3>
+      <p>Balloon, theme and kids party decoration</p>
+    </div>
 
----
+    <div class="card">
+      <h3>Event Decoration 🎊</h3>
+      <p>All types of parties and functions</p>
+    </div>
 
-## 6. What Next
-- Integrate with calendar apps for automated scheduling.  
-- Add adaptive learning to adjust plans based on student progress.  
-- Introduce gamification features for motivation.  
-- Expand data sources to include online learning resources and exam trends.
+  </div>
+</section>
 
----
+<section id="gallery">
+  <h2>Our Work</h2>
 
-## 7. Acknowledgments
-- Open-source Python libraries: [pandas](https://pandas.pydata.org/), [scikit-learn](https://scikit-learn.org/), [Flask](https://flask.palletsprojects.com/)  
-- Inspiration: Study planning apps such as MyStudyLife and AI research in adaptive learning systems.  
-- “Elements of AI” course for project guidance.
+  <div class="gallery">
+    <img src="https://via.placeholder.com/250" alt="Decoration">
+    <img src="https://via.placeholder.com/250" alt="Decoration">
+    <img src="https://via.placeholder.com/250" alt="Decoration">
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>📞 Phone: 8210264657</p>
+  <p>📍 Location: Jamtara</p>
+
+  <a class="btn" href="https://wa.me/918210264657">Chat on WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 Chandan Decorators | Designed by Chandan Kumar</p>
+</footer>
+
+</body>
+</html>
